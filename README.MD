@@ -10,6 +10,6 @@
 
 # How it works
 * The light dependent resistor (LDR) detects light from the PC's power LED
-* If the light is off, a microcontroller detects it, and triggers a relay to connect the power pins on the motherboard
+* If the light is off, a microcontroller detects it, and triggers a relay to connect the power switch pins on the motherboard
 * The relay releases after 2 seconds and the computer should boot up
-* The microcontroller needs either a USB port that works when the PC is off, or a separate power supply
+* The microcontroller is powered either a USB port that is powerecd when the PC is off, or a separate power supply
