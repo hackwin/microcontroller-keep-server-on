@@ -1,5 +1,6 @@
-// tested with lolin esp32 s2 mini
+// tested with lolin esp32 s2 mini: https://www.wemos.cc/en/latest/s2/s2_mini.html
 // to program: hold button 0, press reset, release button 0
+// relay module: https://www.aliexpress.us/item/3256806148209990.html  (input set to GND to activate)
 
 #define LDR_INPUT 2
 #define RELAY_OUTPUT 4
