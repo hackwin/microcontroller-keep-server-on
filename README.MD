@@ -1,3 +1,15 @@
-* Use any microcontroller to keep a PC turned on<br>
+#About
+* Use any microcontroller to keep a PC turned on
 * Similar to the BIOS feature to turn on when power is restored
 * However, this will turn the computer back on if it gets manually turned off by mistake
+
+#Wiring
+* Connect a light dependent resistor (LDR) as an analog input with a pull-down (10k) resistor
+* Point the PC LED at the LDR.  If the LED is 5v and you want to use a regular LED, use a voltage divider to make 3v (1K/2K will work).
+* Connect the digital output signal to the relay module in normally opened (NO) position
+
+#How it works
+* The light dependent resistor (LDR) detects light from the PC's power LED
+* If the light is off, a microcontroller detects it, and triggers a relay to connect the power pins on the motherboard
+* The relay releases after 2 seconds and the computer should boot up
+* The microcontroller needs either a USB port that works when the PC is off, or a separate power supply
