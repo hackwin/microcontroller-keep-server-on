@@ -13,3 +13,7 @@
 * If the light is off, a microcontroller detects it, and triggers a relay to connect the power switch pins on the motherboard
 * The relay releases after 2 seconds and the computer should boot up
 * The microcontroller is powered either a USB port that works when the PC is off, or a separate power supply
+
+# Links to hardware used
+* https://www.wemos.cc/en/latest/s2/s2_mini.html
+* https://www.aliexpress.us/item/3256806148209990.html
