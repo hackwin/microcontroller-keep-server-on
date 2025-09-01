@@ -1,3 +1,5 @@
+![alt text](https://github.com/hackwin/microcontroller-keep-server-on/blob/main/IMG_3116.JPG)
+
 # About
 * Use any microcontroller to keep an ATX PC turned on
 * Similar to the BIOS feature to turn on when power is restored
